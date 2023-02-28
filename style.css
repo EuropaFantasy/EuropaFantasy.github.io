@@ -5,7 +5,7 @@ body {
 }
 a {
   color: white;
-  background-color: black;
+  background: none;
   border-radius: 3px;
 }
 
