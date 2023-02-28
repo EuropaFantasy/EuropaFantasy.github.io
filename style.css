@@ -9,10 +9,13 @@ a {
   border-radius: 3px;
   margin: 4px;
   padding: 5px;
-  text-align: center;
 }
 
 a:hover {
   background-color: green;
   border: 1px dotted white
+}
+
+div {
+  text-align: center;
 }
