@@ -7,6 +7,9 @@ a {
   color: white;
   background: none;
   border-radius: 3px;
+  border: 1px dotted black;
+  margins: 4px;
+
 }
 
 a:hover {
