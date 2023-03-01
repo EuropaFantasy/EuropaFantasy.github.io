@@ -37,10 +37,10 @@ body {
         background-image: url('windows.png');
       }
       .os-image.mac {
-        background-image: url('linux.png');
+        background-image: url('mac.png');
       }
       .os-image.linux {
-        background-image: url('mac.png');
+        background-image: url('linux.png');
       }
       a {
         color: #333;
