@@ -34,13 +34,13 @@ body {
         height: 32px;
       }
       .os-image.windows {
-        background-image: url('https://cdn4.iconfinder.com/data/icons/logos-3/600/Windows_Logo-512.png');
+        background-image: url('windows.png');
       }
       .os-image.mac {
-        background-image: url('https://cdn4.iconfinder.com/data/icons/logos-3/512/mac_os-512.png');
+        background-image: url('linux.png');
       }
       .os-image.linux {
-        background-image: url('https://cdn3.iconfinder.com/data/icons/logos-3/600/Logo_Linux-512.png');
+        background-image: url('mac.png');
       }
       a {
         color: #333;
