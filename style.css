@@ -2,7 +2,16 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f1f1f1;
+  /*background-color: #f1f1f1;*/
+  background: 
+
+    radial-gradient(circle at 0 0, #f1c40f, transparent),
+
+    radial-gradient(circle at 100% 0, #3498db, transparent),
+
+    radial-gradient(circle at 0 100%, #e74c3c, transparent),
+
+    radial-gradient(circle at 100% 100%, #2ecc71, transparent);
 }
 header {
   background-color: #333;
