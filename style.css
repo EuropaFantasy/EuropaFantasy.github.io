@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   /*background-color: #f1f1f1;*/
-  background: 
+ background: 
 
     radial-gradient(circle at 0 0, #f1c40f, transparent),
 
@@ -12,6 +12,9 @@ body {
     radial-gradient(circle at 0 100%, #e74c3c, transparent),
 
     radial-gradient(circle at 100% 100%, #2ecc71, transparent);
+
+  background-size: 100% 100%;
+
 }
 header {
   background-color: #333;
