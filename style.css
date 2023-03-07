@@ -42,8 +42,8 @@ li {
   display: inline-block;
   vertical-align: middle;
   margin-right: 10px;
-  width: 32px;
-  height: 32px;
+  width: 64px;
+  height: 64px;
 }
 .os-image.windows {
   background-image: url('windows.png');
