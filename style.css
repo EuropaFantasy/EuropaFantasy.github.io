@@ -17,7 +17,7 @@ body {
 
 }
 header {
-  background-color: #333;
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(212,169,81,1) 49%, rgba(220,165,47,1) 100%);
   color: #fff;
   padding: 20px;
   text-align: center;
