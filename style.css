@@ -55,7 +55,7 @@ li {
   background-image: url('linux.png');
 }
 a {
-  font-size: 25px;
+  font-size: 50px;
   color: #333;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
