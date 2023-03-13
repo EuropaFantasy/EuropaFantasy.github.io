@@ -65,24 +65,24 @@ a:hover {
 }
 
 ul li:first-child {
-  animation: fadein .8s ease-out;
+  animation: fadein .7s ease-out;
 }
 
 ul li:nth-child(2) {
 
   animation: fadein .8s ease-out;
-  animation-delay: .25s;
+  animation-delay: .15s;
 }
 
 ul li:last-child {
   animation: fadein .8s ease-out;
-  animation-delay: .5s;
+  animation-delay: .3s;
 }
 
 @keyframes fadein {
   from {
     opacity: 0;
-    transform: translateY(-100px);
+    transform: translateY(-80px);
   }
   to {
     opacity: 1;
