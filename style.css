@@ -90,25 +90,15 @@ ul li:last-child {
   }
 }
 button {
-
     display: inline-block;
-
     font-size: 14px;
-
     text-transform: uppercase;
-
     padding: 16px 44px;
-
     border-radius: 6px;
-
     font-weight: 700;
-
     border: 0;
-
-    background: #367BF0;
-
-    color: #36f0c4 !important;
-
+    background: #59d7bc;
+    color: #fff !important;
     box-shadow: inset 0 -6px rgba(0, 0, 0, .2);
 
     text-align: center;
