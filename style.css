@@ -64,8 +64,19 @@ a:hover {
   color: #666;
 }
 
-li, h1 {
+ul li:first-child {
   animation: fadein .8s ease-out;
+}
+
+ul li:nth-child(2) {
+
+  animation: fadein .8s ease-out;
+  animation-delay: 1s;
+}
+
+ul li:last-child {
+  animation: fadein .8s ease-out;
+  animation-delay: 2s;
 }
 
 @keyframes fadein {
