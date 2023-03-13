@@ -65,7 +65,7 @@ a:hover {
 }
 
 p, h1 {
-  animation: fadein .8;
+  animation: fadein .8s ease-out;
 }
 
 @keyframes fadein {
