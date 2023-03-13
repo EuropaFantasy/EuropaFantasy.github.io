@@ -64,7 +64,7 @@ a:hover {
   color: #666;
 }
 
-p, h1 {
+li, h1 {
   animation: fadein .8s ease-out;
 }
 
