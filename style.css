@@ -1,9 +1,8 @@
 body {
-  font-family: Arial, sans-serif;
-  height: 100vh;
-  margin: 0;
-  /*background-color: #f1f1f1;*/
- background: 
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    background:
 
     radial-gradient(circle at 0 0, #d3a538, transparent),
 
@@ -13,81 +12,87 @@ body {
 
     radial-gradient(circle at 100% 100%, #3498db, transparent);
 
-  background-size: cover;
+    background-size: cover;
 
 }
 header {
-  font-size: 55px;
+    font-size: 55px;
 
-  padding: 20px;
-  text-align: center;
+    padding: 20px;
+    text-align: center;
 }
 h1 {
-  margin-top: 0;
+    margin-top: 0;
 }
 .container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    width: 95%;
+    /*border-bottom: 1px solid rgba(127,127,127,.2);*/
 }
 ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 li {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 .os-image {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 10px;
-  width: 64px;
-  height: 64px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 64px;
+    height: 64px;
 }
 .os-image.windows {
-  background-image: url('windows.png');
+    background-image: url('windows.png');
 }
 .os-image.mac {
-  background-image: url('mac.png');
+    background-image: url('mac.png');
 }
 .os-image.linux {
-  background-image: url('linux.png');
+    background-image: url('linux.png');
 }
 a {
-  font-size: 40px;
-  color: #333;
-  text-decoration: none;
-  transition: all 0.2s ease-in-out;
+    font-size: 40px;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
 }
 a:hover {
-  color: #666;
+    color: #666;
 }
 
 ul li:first-child {
-  animation: fadein .7s ease-out;
+    animation: fadein .8s ease-out;
 }
 
 ul li:nth-child(2) {
 
-  animation: fadein .8s ease-out;
-  animation-delay: .15s;
+    animation: fadein .8s ease-out;
+    animation-delay: .15s;
 }
 
 ul li:last-child {
-  animation: fadein .8s ease-out;
-  animation-delay: .3s;
+    animation: fadein .8s ease-out;
+    animation-delay: .3s;
 }
 
 @keyframes fadein {
-  from {
-    opacity: 0;
-    transform: translateX(-80px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0px);
-  }
+    from {
+        opacity: .4;
+        transform: translateX(-80px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
 button {
     display: inline-block;
@@ -103,17 +108,16 @@ button {
 
     text-align: center;
 
-    transition: box-shadow .1s ease
+    transition: box-shadow .1s ease;
 
 }
 
 button:hover {
 
-    box-shadow: inset 0 2px 10px rgba(0, 0, 0, .3)
+    box-shadow: inset 0 2px 10px rgba(0, 0, 0, .3);
 
 }
 
-.shadow,
 
 .card {
 
@@ -121,47 +125,22 @@ button:hover {
 
     transition-duration: .3s;
 
-    transition-property: box-shadow, transform
+    transition-property: box-shadow, transform;
+    background-color: #bc8a52;
 
+    border-radius: 6px;
 }
-
-.shadow:hover,
-
-.shadow:focus,
 
 .card:hover,
 
 .card:focus {
 
-    box-shadow: 0 14px 25px rgba(0, 0, 0, .1) !important
+    box-shadow: 0 14px 25px rgba(0, 0, 0, .1) !important;
 
 }
 
-.card {
+.card:hover {
 
-    background-color: var(--white-color);
+    transform: translateY(-5px);
 
-    border-radius: var(--border-radius);
-
-    display: flex;
-
-    flex-direction: column
-
-}
-
-a.card:hover {
-
-    transform: translateY(-5px)
-
-}
-
-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
-    width: 95%;
-    max-width: 1800px;
-    border-bottom: 1px solid rgba(127,127,127,.2);
-    padding-bottom: 30px;
 }
