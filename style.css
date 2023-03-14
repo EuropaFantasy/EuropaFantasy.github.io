@@ -113,4 +113,44 @@ button:hover {
 
 }
 
+.shadow,
 
+.card {
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 7%) !important;
+
+    transition-duration: .3s;
+
+    transition-property: box-shadow, transform
+
+}
+
+.shadow:hover,
+
+.shadow:focus,
+
+.card:hover,
+
+.card:focus {
+
+    box-shadow: 0 14px 25px rgba(0, 0, 0, .1) !important
+
+}
+
+.card {
+
+    background-color: var(--white-color);
+
+    border-radius: var(--border-radius);
+
+    display: flex;
+
+    flex-direction: column
+
+}
+
+a.card:hover {
+
+    transform: translateY(-5px)
+
+}
